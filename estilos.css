@@ -118,10 +118,10 @@ main {
 }
 .gift_paquetes {
   display: flex;
-  color: goldenrod;
+  
 }
 .gift_paquetes a {
-  color: goldenrod;
+  color: black;
   font-size: 3rem;
   font-weight: bold;
   padding: 0 20px;
