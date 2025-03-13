@@ -23,9 +23,11 @@
 }
 .portada {
   display: flex;
-  align-items: center;
+  max-width: 1000px;
+  
   justify-content: baseline;
-  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 .portada img {
   width: 18%;
@@ -40,6 +42,7 @@
   height: 90px;
   max-width: 1200px;
   margin: 0 auto;
+  
 }
 .logo {
   display: flex;
@@ -79,6 +82,7 @@
   margin-left: 15px;
   text-transform: uppercase;
   transition: 0.5s;
+  font-size: 12px;
 }
 .nav-menu-link:hover {
   color: #8121db;
@@ -154,7 +158,8 @@ main {
 .separador {
   width: 100%;
   height: 1px;
-  padding-bottom: 20px;
+  background: silver;
+  
 }
 .horario p {
   text-align: center;
@@ -224,6 +229,12 @@ main {
   text-align: center;
   border: none;
 }
+@media (max-width: 990px){
+  .contenedor_cont {
+    height: 1100px;
+  }
+
+}
 @media (max-width: 750px) {
   .nav-toggle {
     display: block;
@@ -239,7 +250,7 @@ main {
     justify-content: space-around;
   }
   .contenedor_cont {
-    height: 1500px;
+    height: 1600px;
   }
 
   .gift_paquetes {
@@ -259,4 +270,7 @@ main {
   #contacto textarea {
     width: 300px;
   }
+  .portada {
+    max-width: 400px;
+}
 }
