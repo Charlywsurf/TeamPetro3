@@ -245,12 +245,12 @@ main {
     top: 90px;
     background: rgba(0, 0, 0, 0.616);
     width: 100%;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 155px);
     align-items: center;
     justify-content: space-around;
   }
   .contenedor_cont {
-    height: 1600px;
+    height: 1700px;
   }
 
   .gift_paquetes {
