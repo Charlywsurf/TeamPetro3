@@ -1,0 +1,265 @@
+ <div id="inicio">
+          <div class="contenedor">
+            <h3 class="cont_titulo">que ofrecemos</h3>
+            <div class="cont_texto int_card">
+              ¡Dale a tu cabello el cuidado que se merece!<br>
+              Transforma tu estilo y realza tu belleza con nuestros servicios especializados en
+              coloración, iluminación y bienestar capilar.
+              Nos enfocamos en resaltar tu esencia única, cuidando cada detalle para que tu cabello
+              no solo luzca espectacular, sino también esté saludable.
+              Coloración personalizada: Logramos tonos vibrantes o naturales que
+              se adapten a tu estilo y personalidad.<br>Técnicas de iluminación
+              avanzadas: Desde mechas sutiles hasta efectos audaces, trabajamos
+              para crear el look perfecto para ti.<br>Bienestar capilar:<br>
+              Tratamientos nutritivos que fortalecen tu cabello y restauran su
+              brillo natural, porque sabemos que un cabello hermoso comienza con
+              un cabello sano. Deja tu cabello en manos expertas y disfruta de un
+              cambio que te hará sentir renovada, segura y lista para cualquier
+              ocasión.<br>¡Reserva tu cita hoy mismo y descubre la magia de un
+              cabello cuidado y radiante! 
+            </div>
+            <div class="cont_image">
+              <a href=""></a><img src="/img/portada-07.jpg" alt="" />
+            </div>
+            <div class="cont_pie">
+              <p><br>Team Petro, estilistas Recoleta, Buenos Aires, Argentina.
+              </p>
+            </div>
+            </div>
+        </div>
+
+
+         <div id="gift" class="centrado">
+          <div class="contenedor">
+            <h3 class="cont_titulo">gift card</h3>
+            <div class="cont_texto int_card">
+              <h2>Gift card para agasajar a alquien especial!</h2>
+              <br><p>¡El regalo perfecto está a un clic de distancia! <br>
+              ¿Buscas sorprender a alguien especial y no sabes qué elegir?<br>Nuestras gift
+              cards son la solución ideal. Son prácticas, versátiles y, sobre
+              todo, aseguran que la persona reciba exactamente lo que desea.<br> 
+              ¿Qué es una gift card? Es una tarjeta de regalo que permite a quien
+              la recibe canjearla por nuestros productos o servicios.<br>Tú decides
+              el monto, y nosotros nos encargamos de hacer el momento especial. 
+              <br>Razones para elegir una gift card:<br>Flexibilidad:<br>Perfecta para
+              cualquier ocasión, desde cumpleaños hasta celebraciones inesperadas.
+              <br>Personalización:<br>Un detalle especial que permite que cada persona
+              elija lo que más le gusta.<br>Comodidad:<br>Regala felicidad sin
+              complicaciones.<br>Fácil de adquirir y utilizar, nuestras gift cards
+              son más que un regalo:<br>son una experiencia que garantiza
+              satisfacción y alegría. Sorprende hoy con el detalle que nunca
+              falla.
+            </p></div>
+            <div class="cont_image">
+              <a href=""></a><img src="/img/gift-card.png" alt="" />
+            </div>
+            <div class="cont_pie">
+              <p>
+                <h3>¡Adquiere tu gift card ahora y haz feliz a alguien especial!<br>
+                compralos en los siguientes links:</h3>
+              </p>
+  <div class="gift_paquetes">
+    <div class="paquetes"><a href="https://mpago.la/2JoQFzr" target="_blank">$20000</a></div>
+    <div class="paquetes"><a href="https://mpago.la/1EtzMDZ" target="_blank">$40000</a></div>
+    <div class="paquetes"><a href="https://mpago.la/1eDq5oU" target="_blank">$60000</a></div>
+  </div>
+  
+            </div>
+            
+          </div>
+        </div>
+
+
+        <div id="ubicacion" class="centrado">
+          <div class="contenedor">
+            <h3 class="cont_titulo">ubicacion</h3>
+            <div class="cont_texto">
+              <h3>Team Petro estilistas</h3>
+              nuestro salon esta ubicado en Recoleta, barrio llamado "la París
+              argentina" por la inmigración francesa desde 1840 y su consecuente
+              arquitectura. Dentro de sus límites se encuentran grandes espacios
+              culturales, monumentos históricos, el Museo Nacional de Bellas
+              Artes, la Biblioteca Nacional, el Centro Cultural Recoleta y otros
+              pabellones de exposiciones.
+            </div>
+            <div class="cont_image">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4101.5129962278925!2d-58.38660379999999!3d-34.5881798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa4d0b3fdef%3A0xbc42e5f1aab66b65!2steam%20Petro%20estilistas!5e1!3m2!1ses-419!2sar!4v1740086467034!5m2!1ses-419!2sar"
+                width="350"
+                height="350"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="cont_pie">
+              <p>los esperamos con nuestro gran equipo.</p>
+            </div>
+           
+          </div>
+        </div>
+
+
+
+
+        
+        <div id="servicios" class="centrado">
+          <div class="contenedor_dos">
+            <h3 class="cont_titulo">servicios</h3>
+  
+            <div class="cont_texto_servicios">
+              <button class="accordion">lavados cortes y peinados</button>
+              <div class="panel">
+                <p>
+                  lavado (desde) $ 12.000<br />
+                  corte HOMBRE/MUJER $ 18.750<br />
+                  peinado $ 12.000<br />
+                  extra por planchita $ 5.000<br />
+                  peinado especial (bucles) $ 27.600<br />
+                  peinado recogido $ 39.600
+                </p>
+              </div>
+  
+              <button class="accordion">tratamientos</button>
+              <div class="panel">
+                <p>
+                  tratamiento sebastian/loreal $ 30.000<br />
+                  tratamiento molecular loreal lavado inc., peinado no
+                  inc. $ 46.000<br />
+                  tratamiento kerssell colgeno lavado y peinado incluido $
+                  56.500<br />
+                  OLAPLEX MANTENIMIENTO paso 2 $ 45.000<br />
+                  OLAPLEX BAÑO DE CREMA 4 en 1 $ 60.000<br />
+                  OLAPLEX ORIGINAL PASO 1, 2 + 4 BAñO DE CREMA $ 70.000
+                </p>
+              </div>
+  
+              <button class="accordion">coloraciones</button>
+              <div class="panel">
+                <p>
+                  color / lavado incluido (raiz) $ 45.000<br />
+                  color difuso / lavado incluido (raiz a punta un solo color) $
+                  67.500<br />
+                  dos trabajos de color $ 81.000<br />
+                  color inoa (sin amoniaco) / lavado incluido (raiz) $ 60.000<br />
+                  color inoa difuso (sin amoniaco) / lav incluido (raiz a punta un
+                  solo color) $ 90.000<br />
+                  dos trabajos de color inoa (sin amoniaco) / lavado incluido $
+                  102.000<br />
+                  tono sobre tono / lavado incluido (raiz) $ 49.000<br />
+                  tono sobre tono / lavado incluido (raiz a punta un solo color) $
+                  73.500<br />
+                  dos trabajos tono sobre tono / lavado incluido $ 83.300<br />
+                  henna color / incluye lavado $ 47.000
+                </p>
+              </div>
+              <button class="accordion">
+                baños de luz, iluminacion, reflejos
+              </button>
+              <div class="panel">
+                <p>
+                  shampoo color con amoniaco (baño de luz) $ 35.000<br />
+                  shampoo color sin amoniaco INOA (baño de luz) $ 45.000<br />
+                  ilumunacion/reflejos/mechas sistema con peine(desde) $ 88.200<br />
+                  mechas con papel (desde) $ 104.000
+                </p>
+              </div>
+              <button class="accordion">
+                botox, keratinas, alisados, planchados
+              </button>
+              <div class="panel">
+                <p>
+                  botox o shock de keratina corto $ 30.000<br />
+                  botox o shock de keratina melena $ 42.000<br />
+                  botox o shock de keratina largo $ 51.000<br />
+                  botox o shock de keratina muy largo $ 60.000<br />
+                  alisado japones corto $ consultar<br />
+                  alisado japones melena $ consultar<br />
+                  alisado japones largo $ consultar<br />
+                  alisado japones muy largo $ consultar<br />
+                  planchado corto $ consultar<br />
+                  planchado melena $ consultar<br />
+                  planchado largo $ consultar<br />
+                  planchado muy largo $ consultar
+                </p>
+              </div>
+              <button class="accordion">manos y pies</button>
+              <div class="panel">
+                <p>
+                  manicuria (desde) $ consultar<br />
+                  manicuria semipermanente (desde) $ consultar<br />
+                  kapping gel (desde) $ consultar<br />
+                  soft gel (desde) $ consultar<br />
+                  belleza de pies (desde) $ consultar<br />
+                  belleza de pies semipermanente (desde) $ consultar<br />
+                  pedicuria con torno (desde) $ consultar<br />
+                  pedicuria con bisturi (desde) $ consultar<br />
+                  pedicuria profunda (desde) $ consultar<br />
+                  retiro de semi $ consultar<br />
+                  retiro de kapping/esculpidas $ consultar
+                </p>
+              </div>
+              <button class="accordion">maquillajes</button>
+              <div class="panel">
+                <p>
+                  maquillaje natural $ 70.000<br />
+                  maquillaje social $ 90.000
+                  <br />
+                </p>
+              </div>
+            </div>
+  
+            <div class="cont_pie">
+              <p>
+                <a href="#pago"><br />Consulte formas de pago</a>
+              </p>
+            </div>
+            <div class="separador"></div>
+          </div>
+        </div>
+
+         <div id="pago" class="centrado">
+          <div class="contenedor">
+            <h3 class="cont_titulo">formas de pago</h3>
+  
+            <div class="cont_texto">
+              - tarjetas de credito:<BR>VISA, VISA DEBITO, MASTERCARD, MASTERCARD DEBITO, AMERICAN EXPRESS<br>
+              - transferencias bancarias.<br>
+              - billeteras virtuales:<br>MERCADO PAGO, MODO, APPLE PAY, GOOGLE PAY.
+              <BR>- efectivo:<BR>$ PESOS, u$ DOLAR. 
+            </div>
+            <div class="cont_image">
+              <a href=""></a><img src="/img/mediosdepago.png" alt="" />
+            </div>
+            <div class="cont_pie">
+              <p><br />consulte descuentos en efectivo</p>
+            </div>
+            <div class="separador"></div>
+          </div>
+        </div>
+  
+        <div id="reseñas" class="centrado">
+          <div class="contenedor_dos">
+            <h3 class="cont_titulo">reseñas</h3>
+            <!-- <div class="cont_texto">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              veniam repellendus praesentium numquam delectus consectetur
+              voluptates quos sint repudiandae nihil dolorem earum autem
+              necessitatibus reiciendis aut, ut, cum dolor quod.
+            </div>
+            <div class="cont_image">
+              <a href=""></a><img src="/img/2.png" alt="" />
+            </div>
+            <div class="cont_pie">
+              <p>
+                <br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                maxime architecto quasi quaerat ipsam perferendis!
+              </p>
+            </div> -->
+            <iframe src="https://widget.taggbox.com/2156561" style="width:100%;height:600px;border:none;"></iframe>
+  
+            <div class="separador"></div>
+          </div>
+        </div>
