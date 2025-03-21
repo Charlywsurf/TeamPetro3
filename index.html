@@ -10,12 +10,18 @@
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="/acordion.css" />
     <link
       rel="shortcut icon"
       href="/img/favicon_io/LOGO-TIJERA.png"
       type="image/x-icon"
     />
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="/jswiper.js"></script>
     <script defer src="/main.js"></script>
     <script defer src="/bar.js"></script>
     <script defer src="/acordion.js"></script>
@@ -63,6 +69,31 @@
     <main class="main">
       <div id="#" class="contenedor_cont">
         <div class="contenedor_tit centrado"></div>
+        <br />
+        <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="/img/marcas/inoa.png" alt=""></div>
+    <div class="swiper-slide"><img src="/img/marcas/kerastase.png" alt=""></div>
+    <div class="swiper-slide"><img src="/img/marcas/loreal.png" alt=""></div>
+    <div class="swiper-slide"><img src="/img/marcas/mac.png" alt=""></div>
+    <div class="swiper-slide"><img src="/img/marcas/opi.png" alt=""></div>
+    <div class="swiper-slide"><img src="/img/marcas/wella.png" alt=""></div>
+    <div class="swiper-slide"><img src="/img/marcas/yellow.png" alt=""></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+<br><br>
         <p>
           ¡Dale a tu cabello el cuidado que se merece!<br />
           Transforma tu estilo y realza tu belleza con nuestros servicios
@@ -80,19 +111,9 @@
           ocasión.<br />¡Reserva tu cita hoy mismo y descubre la magia de un
           cabello cuidado y radiante!<br />
         </p>
-        <div class="portada centrado">
-          <!-- <img src="/img/6.jpeg" alt="">
-        <img src="/img/2.png" alt="">
-        <img src="/img/3.png" alt="">
-        <img src="/img/4.png" alt=""> -->
-          <img src="/img/marcas/inoa.png" alt="" />
-          <img src="/img/marcas/kerastase.png" alt="" />
-          <img src="/img/marcas/loreal.png" alt="" />
-          <img src="/img/marcas/wella.png" alt="" />
-          <img src="/img/marcas/opi.png" alt="" />
-          <img src="/img/marcas/yellow.png" alt="" />
-        </div>
-      </div>
+        <br /><br /><br />
+
+        
       <div class="separador"></div>
 
       <div id="reseñas" class="contenedor_cont">
@@ -103,7 +124,7 @@
           class="elfsight-app-c5d1c2cf-0705-4b82-ab5e-a44e9fec21dc"
           data-elfsight-app-lazy
         ></div>
-          <p>
+        <p>
           Queridos Clientes, En Team Petro, valoramos profundamente la confianza
           y el apoyo que nos brindan. Nos llena de alegría leer las maravillosas
           reseñas que comparten sobre sus experiencias con nosotros. Cada
@@ -145,7 +166,7 @@
         <div class="panel">
           <p>
             lavado (desde) $ 12.000<br />
-            corte HOMBRE/MUJER $ 18.750<br />
+            corte HOMBRE/MUJER $ 25.000<br />
             peinado $ 12.000<br />
             extra por planchita $ 5.000<br />
             peinado especial (bucles) $ 27.600<br />
@@ -288,14 +309,14 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe
-        ><br><br>
+        ><br /><br />
         <p>
-          Team Petro estilistas, esta ubicado en
-          Recoleta, barrio llamado "la París argentina" por la inmigración
-          francesa desde 1840 y su consecuente arquitectura. Dentro de sus
-          límites se encuentran grandes espacios culturales, monumentos
-          históricos, el Museo Nacional de Bellas Artes, la Biblioteca Nacional,
-          el Centro Cultural Recoleta y otros pabellones de exposiciones.
+          Team Petro estilistas, esta ubicado en Recoleta, barrio llamado "la
+          París argentina" por la inmigración francesa desde 1840 y su
+          consecuente arquitectura. Dentro de sus límites se encuentran grandes
+          espacios culturales, monumentos históricos, el Museo Nacional de
+          Bellas Artes, la Biblioteca Nacional, el Centro Cultural Recoleta y
+          otros pabellones de exposiciones.
         </p>
       </div>
 
@@ -306,7 +327,7 @@
         <div class="icons">
           <i class="uil uil-gift"></i>
         </div>
-        <br><br>
+        <br /><br />
         <p>
           Gift card para agasajar a alquien especial!
           <br />¡El regalo perfecto está a un clic de distancia! ¿Buscas
@@ -351,9 +372,9 @@
       <div id="pet" class="contenedor_cont">
         <div class="contenedor_tit centrado">we are pet friendly</div>
         <div class="pet">
-          <br>
+          <br />
           <img src="/img/pet_friendly.png" alt="" />
-          <br><br>
+          <br /><br />
           <p>
             ¡En Team Petro amamos a los animales tanto como tú! Entendemos que
             tus mascotas son parte importante de tu familia y queremos que se
@@ -403,20 +424,22 @@
             </div>
           </form>
         </div>
-        <br><br>
+        <br /><br />
         <p>
-          Queridos clientes. <br> ¡Saludos desde Team Petro estilistas!
-          Queremos agradecerles por ser parte de nuestra comunidad y elegirnos
-          para cuidar de su estilo y belleza. Estamos encantados de poder
-          ofrecerles nuestros servicios y siempre buscamos maneras de mejorar su
-          experiencia. Por ello, nos gustaría invitarles a ponerse en contacto
-          con nosotros para cualquier consulta, sugerencia o comentario que
-          puedan tener. Su opinión es invaluable para nosotros y nos ayuda a
-          crecer y mejorar cada día. Comuníquense a nuestro whatsapp, por correo
-          mediante este formulario o aatravez de nuestras redes. Estaremos
-          encantados de atenderles y resolver cualquier duda que puedan tener.
-          Gracias por su confianza y esperamos seguir siendo su primera opción
-          para lucir increíbles. Atentamente, <br><br>Petrona Solis <br> Directora.
+          Queridos clientes. <br />
+          ¡Saludos desde Team Petro estilistas! Queremos agradecerles por ser
+          parte de nuestra comunidad y elegirnos para cuidar de su estilo y
+          belleza. Estamos encantados de poder ofrecerles nuestros servicios y
+          siempre buscamos maneras de mejorar su experiencia. Por ello, nos
+          gustaría invitarles a ponerse en contacto con nosotros para cualquier
+          consulta, sugerencia o comentario que puedan tener. Su opinión es
+          invaluable para nosotros y nos ayuda a crecer y mejorar cada día.
+          Comuníquense a nuestro whatsapp, por correo mediante este formulario o
+          aatravez de nuestras redes. Estaremos encantados de atenderles y
+          resolver cualquier duda que puedan tener. Gracias por su confianza y
+          esperamos seguir siendo su primera opción para lucir increíbles.
+          Atentamente, <br /><br />Petrona Solis <br />
+          Directora.
         </p>
       </div>
 
