@@ -20,7 +20,10 @@
   height: 200px;
   object-fit: contain;
 }
-.swiper-button-next {
+.swiper-button-next, .swiper-button-prev {
+  display: none !important;
+}
+.swiper-scrollbar {
   display: none;
 }
 
