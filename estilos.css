@@ -277,8 +277,11 @@ main {
     height: 1000px;
   }
 
-  .servicios {
+  .servicios  {
     height: 2500px;
+  }
+  .gift {
+    height: 1500px;
   }
 
   .gift_paquetes {
