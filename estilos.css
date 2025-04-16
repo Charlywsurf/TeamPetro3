@@ -141,11 +141,25 @@ main {
   display: flex;
   
 }
+.comprar {
+  align-items: center;
+}
+.comprar p{
+  font-weight: bold;
+  background: rgba(218, 165, 32, 0.623);
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+}
 .gift_paquetes a {
-  color: black;
-  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
   font-weight: bold;
   padding: 0 20px;
+  background: rgb(166, 166, 166);
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 5px;
 }
 
 .footer {
@@ -256,6 +270,9 @@ main {
 @media (max-width: 990px){
   .contenedor_cont {
     height: 1100px;
+  }
+  .gift_paquetes a {
+       font-size: 1.5rem;
   }
 
 }
