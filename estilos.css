@@ -125,6 +125,14 @@ main {
 .servicios {
   height: 2000px;
 }
+.horario_caja{
+  width: 100%;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
 .contenedor_cont p {
   text-align: left;
 }
