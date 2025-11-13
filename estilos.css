@@ -125,10 +125,11 @@ main {
   width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
-  height: 1000px;
+  
 }
 .servicios {
-  height: 2000px;
+  min-height: 2500px;
+  
 }
 .horario_caja{
   width: 100%;

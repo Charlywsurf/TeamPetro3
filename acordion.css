@@ -24,7 +24,7 @@ font-family: "Caveat", serif;
     text-align: left;
     border: none;
     outline: none;
-    transition: 0.4s;
+    transition: .4s;
     font-family: "poppins", serif;
     font-weight: bold;
   }
