@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.header {
+    width: 100vw;
+    height: 10vh;
+    background: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: "Science Gothic", sans-serif;
+    font-size: 9px;
+}
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.main {
+    width: 100%;
+    color: black;
+    display: flex;
+}
+/* .aside {
+    width: 20%;
+    
+    background: silver;
+} */
+.listado {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedor {
+    width: 200px;
+    height: 330px;
+    border: solid .5px rgb(212, 209, 209);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana;
+    font-size: 8px;
+    
+}
+.codigo{
+    height: 5vh;
+}
+.nombre_p {
+    height: 10vh;
+       font-family:monospace;
+    font-size: 10px;
+    font-weight: bold;
+}
+.description_p {
+    height: 30vh;
+}
+.prod_img {
+   
+    max-height: 20vh;
+   object-fit: contain;
+    
+}
+.price_list {
+    height: 5vh;
+}
+.price_final {
+    font-family:monospace;
+    font-size: 12px;
+    font-weight: bold;
+    height: 5vh;
+}
+
+.footer {
+    width: 100%;
+    height: 10vh;
+    background: black;
+    color:silver;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
+}
