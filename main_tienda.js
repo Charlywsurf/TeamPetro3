@@ -33,8 +33,8 @@ async function obtenerProductos() {
       "</div><div class='description_p'><br>descripcion:<br>" +
       fila.description_p +
       "</div><br><div class='presentacion'>presentacion: <p>" + fila.presentacion + "</p></div><div class='prod_img'><a href=" + fila.img_p + " target='_blank'><img src="  + fila.img_p + " alt='' class='prod_img centrado' id='prod_img'></a></div><div class='cont_valores'><div class='valores'><div class='titulo'>valor de lista: </div><div class='price_list'> $" + fila.price_list +"</div></div><div class='valores'><div class='titulo'>HOY 30% OFF : </div><div class='price_final'> $" +
-      fila.price_final + "</div></div><div class='valores'><div class='titulo'>efectivo/tranferencia :</div><div class='price_final_e'> $" + 
-      fila.price_final*.9+ "</div></div><div class='valores'><div class='titulo'>3 cuotas sin interes de : </div><div class='price_final_t'> $" + fila.price_final/3+ "</div></div></div>";
+      fila.price_final + "</div></div><div class='valores'><div class='titulo'>3 cuotas sin interes de :</div><div class='price_final_e'> $" + 
+      fila.price_final/3+ "</div></div><div class='valores'><div class='titulo'>fectivo/tranferencia : </div><div class='price_final_t'> $" + fila.price_final*.9+ "</div></div></div>";
   });
 }
 
