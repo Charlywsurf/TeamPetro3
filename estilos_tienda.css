@@ -82,20 +82,61 @@ font-variant: small-caps;
    object-fit: contain;
     
 }
-
+.cont_valores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo {
+    height: 25px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.valores {
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 70%;
+}
+.presentacion {
+    display: flex;
+    font-size: 13px;
+}
+/* .price_list p {
+    height: 5px;
+    font-size: 20px;
+} */
 .price_list {
-    height: 5vh;
-    font-size: 10px;
-    font-variant: small-caps;
+    font-size: 13px;
+    text-decoration: line-through;
+    
+    
 }
 .price_final {
     font-family:monospace;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: bold;
     height: 20vh;
-    color: #537e99;
-    font-variant: small-caps;
-    letter-spacing: 2px;
+    color: #1ac90d;
+    letter-spacing: .5px;
+}
+.price_final_e {
+   font-family:monospace;
+    font-size: 18px;
+    font-weight: bold;
+    height: 20vh;
+    color: #f15e3d;
+    letter-spacing: .5px;
+}
+.price_final_t{
+    font-family:monospace;
+    font-size: 18px;
+    font-weight: bold;
+    height: 20vh;
+    color: #5684cf;
+    letter-spacing: .5px;
 }
 
 .footer {
