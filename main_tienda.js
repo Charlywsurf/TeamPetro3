@@ -7,10 +7,10 @@ const supabaseKey =
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 async function obtenerProductos() {
-  const { data } = await supabase.from("productos").select("*");
+  const { data } = await supabase.from("productos").select("*").order('codigo', {ascending: true})
 
-  data.forEach((fila) => {
-    console.log(fila);
+  data.forEach((fila, index) => {
+    console.log(fila, index);
     const html = document.getElementById("dato");
     // html.innerHTML +=
     // "<div class='datosbase'><div class='mostrar'>" +
