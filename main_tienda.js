@@ -28,14 +28,19 @@ async function obtenerProductos() {
       fila.codigo +
       "</div><div class='nombre_p'>" +
       fila.nombre_p +
+      "</div><div class='linea_p'>linea: " +
+      fila.linea_p +
       "</div><div class='description_p'><br>descripcion:<br>" +
       fila.description_p +
-      "</div><br>presentacion:" + fila.presentacion + "<img src='" + fila.img_p + "' alt='' class='prod_img centrado'><div class='price_list'>valor de lista: $" +
+      "</div><br>presentacion:" + fila.presentacion + "<a href="+ fila.img_p + " target='_blank'><img src='" + fila.img_p + "' alt='' class='prod_img centrado' id='prod_img'></a><div class='price_list'>valor de lista: $" +
       fila.price_list +
-      "</div><div class='price_final'>valor 30% OFF: $" +
-      fila.price_final +
+      "</div><br><div class='price_final'>HOY 30% OFF: $" +
+      fila.price_final + 
+      "<br><br>pagalo en efectivo/tranferencia $" + fila.price_final*.9+ 
+      "<br>o pagalo en 3 cuotas sin interes de $" + fila.price_final/3+ 
       "</div></div>";
   });
 }
+
 
 obtenerProductos();
