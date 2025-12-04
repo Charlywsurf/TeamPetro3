@@ -42,7 +42,7 @@ height: 60px;
     justify-content: center;
 }
 .contenedor {
-    width: 370px;
+    width: 350px;
     height: 390px;
     border: solid .5px rgb(212, 209, 209);
     border-radius: 5px;
@@ -111,15 +111,13 @@ font-variant: small-caps;
 .price_list {
     font-size: 13px;
     text-decoration: line-through;
-    
-    
 }
 .price_final {
     font-family:monospace;
     font-size: 18px;
     font-weight: bold;
     height: 20vh;
-    color: #1ac90d;
+    color: #7e8b7d;
     letter-spacing: .5px;
 }
 .price_final_e {
@@ -127,7 +125,7 @@ font-variant: small-caps;
     font-size: 18px;
     font-weight: bold;
     height: 20vh;
-    color: #f15e3d;
+    color: #b09893;
     letter-spacing: .5px;
 }
 .price_final_t{
@@ -135,16 +133,21 @@ font-variant: small-caps;
     font-size: 18px;
     font-weight: bold;
     height: 20vh;
-    color: #5684cf;
+    color: #647da5;
     letter-spacing: .5px;
 }
 
 .footer {
     width: 100%;
-    height: 10vh;
-    background: black;
+    height: 5vh;
+    background: rgba(0, 0, 0, 0.826);
     color:silver;
     font-family: monospace;
     font-size: 15px;
     font-weight: bold;
+    position: fixed;
+    bottom: 0;
+}
+.botton img {
+   max-height: 20px;
 }
