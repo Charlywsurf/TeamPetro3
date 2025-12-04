@@ -151,3 +151,6 @@ font-variant: small-caps;
 .botton img {
    max-height: 20px;
 }
+.botton {
+    font-size: 8px;
+}
