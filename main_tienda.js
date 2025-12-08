@@ -7,7 +7,7 @@ const supabaseKey =
 
 
 const supabase = createClient(supabaseUrl, supabaseKey);
-
+const { data, error } = await supabase.auth.signInAnonymously()
 async function obtenerProductos() {
   const { data } = await supabase.from("productos").select("*").order('codigo', {ascending: true})
 
