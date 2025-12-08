@@ -12,16 +12,6 @@ async function obtenerProductos() {
   data.forEach((fila, index) => {
     console.log(fila, index);
     const html = document.getElementById("dato");
-    // html.innerHTML +=
-    // "<div class='datosbase'><div class='mostrar'>" +
-    // fila.nombre_p +
-    // "</div><div class='mostrar'>" +
-    // fila.description_p +
-    // "</div><div class='mostrar'>" +
-    // fila.price_list +
-    // "</div><div class='mostrar'>" +
-    // fila.price_final +
-    // "</div></div>";
 
     html.innerHTML +=
       "<div class='contenedor'><div class='codigo'>codigo: " +
