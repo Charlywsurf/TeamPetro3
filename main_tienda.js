@@ -1,15 +1,40 @@
-console.log("carlos");
+const { createClient } = supabase;
+const supabaseUrl = "https://nhvyyvnxrupokuyjunhp.supabase.co"; // Replace with your actual Supabase Project URL
+const supabaseAnonKey =
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5odnl5dm54cnVwb2t1eWp1bmhwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTUyODYyNjEsImV4cCI6MjA3MDg2MjI2MX0.NX2t8xNswjkrggauvmxomQSLoDkiE_Hdaool5Gu0m2o"; // Replace with your actual Supabase Anon Key
 
-import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
-const supabaseUrl = "https://nhvyyvnxrupokuyjunhp.supabase.co";
-const supabaseKey =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5odnl5dm54cnVwb2t1eWp1bmhwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTUyODYyNjEsImV4cCI6MjA3MDg2MjI2MX0.NX2t8xNswjkrggauvmxomQSLoDkiE_Hdaool5Gu0m2o";
+const _supabase = createClient(supabaseUrl, supabaseAnonKey);
+
+// async function obtenerProductos() {
+//   const { data } = await _supabase.from("mascotas").select("*").order('id', {ascending: true})
+
+//   data.forEach((fila, index) => {
+//     console.log(fila, index);
+//     const html = document.getElementById("dato");
+
+//     html.innerHTML +=
+//       "<div class='contenedor'><div class=linea>" +
+//       fila.nombre +"</div><div class=linea>" + fila.tipo + "</div><div class=linea>" + fila.sexo + "</div><div class=linea>" + fila.edad + "</div></div>";
+//   })
+// }
+// obtenerProductos();
 
 
-const supabase = createClient(supabaseUrl, supabaseKey);
-const { data, error } = await supabase.auth.signInAnonymously()
+
+// //---------------------------------------------
+
+// import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
+// const supabaseUrl = "https://nhvyyvnxrupokuyjunhp.supabase.co";
+// const supabaseKey =
+//   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5odnl5dm54cnVwb2t1eWp1bmhwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTUyODYyNjEsImV4cCI6MjA3MDg2MjI2MX0.NX2t8xNswjkrggauvmxomQSLoDkiE_Hdaool5Gu0m2o";
+
+
+// const _supabase = createClient(supabaseUrl, supabaseKey);
+// const { data, error } = await supabase.auth.signInAnonymously()
+
+
 async function obtenerProductos() {
-  const { data } = await supabase.from("productos").select("*").order('codigo', {ascending: true})
+  const { data } = await _supabase.from("productos").select("*").order('codigo', {ascending: true})
 
   data.forEach((fila, index) => {
     console.log(fila, index);
