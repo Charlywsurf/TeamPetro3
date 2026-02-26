@@ -146,6 +146,9 @@ main {
   font-size: 1.6rem;
   font-weight: bold;
 }
+.contenedor_tit img{
+  width: 100%;
+}
 .giftcard_img img {
   width: 80%;
   height: 250px;
